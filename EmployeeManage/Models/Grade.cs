@@ -9,7 +9,6 @@ namespace EmployeeManage.Models
     {
         public int ID { get; set; }
         public string GradeName { get; set; }
-
         public virtual ICollection<Student> Students { get; set; }
     }
 }

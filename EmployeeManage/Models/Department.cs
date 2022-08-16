@@ -5,12 +5,11 @@ using System.Web;
 
 namespace EmployeeManage.Models
 {
-    public class Teacher
+    public class Department
     {
         public int ID { get; set; }
-        public string Name { get; set; }
-        public Nullable<int> StdID { get; set; }
-        public virtual Standard Standard { get; set; }
+        public string DeptName { get; set; }
         public virtual HOD HOD { get; set; }
+        //public virtual ICollection<Teacher> Teacher { get; set; }
     }
 }
